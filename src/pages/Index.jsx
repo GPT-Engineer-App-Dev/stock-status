@@ -2,7 +2,7 @@ import { Box, Container, Heading, VStack, Text, Grid, GridItem, Image } from "@c
 
 const Index = () => {
   return (
-    <Container maxW="container.xl" p={4}>
+    <Container maxW="container.xl" p={4} bg="#fff1e5">
       <VStack spacing={8} align="stretch">
         <Box bg="brand.700" color="white" p={4} borderRadius="md">
           <Heading as="h1" size="xl">Financial News</Heading>
